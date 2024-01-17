@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahallah Faruq</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="facilities.html">FACILITIES</a> </li>
+                    <li><a href="mrc.html">MRC</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+
+
+<!------mrc-->
+
+<section class="mrc">
+    <h1>Mahallah Representative Committee</h1>
+    <p>No need to go it alone! Mahallah Faruq has your back with its awesome Representative Committee, your elected peers who champion student concerns and organize fun events, making your college life vibrant and fulfilling.</p>
+    
+    <div class="row">
+        <div class="mrc-col">
+            <img src="mrc1.jpg">
+            <h3>Advocating for Student Needs</h3>
+            <p>The committee brings together student concerns and suggestions, advocating for improvements in accommodation, facilities, food quality, and overall student experience. They effectively communicate residents' needs to the administration, ensuring their voices are heard and addressed.</p>            
+        </div>
+        <div class="mrc-col">
+            <img src="mrc2.jpg">
+            <h3>Organizing Events</h3>
+            <p>By organizing leisure activities and social gatherings, the committee helps residents unwind, de-stress, and build lasting friendships, contributing to their overall well-being and creating a vibrant atmosphere within Mahallah Faruq.</p>            
+        </div>
+        <div class="mrc-col">
+            <img src="mrc3.jpg">
+            <h3>Facilitating Communication</h3>
+            <p>The committee acts as a communication hub, promoting open dialogue and understanding between residents, the administration, and student organizations. They regularly update residents on important announcements and address concerns through various channels.</p>            
+        </div>
+
+    </div>
+</section>
+
+<!-----Footer----->
+<footer id="contact">
+    <div class="row">
+        <div class="col">
+            <img class="logo-footer" src="iium-logo-removebg-preview.png" alt="">
+            <h3>Mahallah Al-Faruq</h3>
+            <p>Principal of Mahallah Al-Faruq</p>
+            <p>International Islamic University</p>
+            <p>P.O. Box 10</p>
+            <p>50738 Kuala Lumpur</p>
+        </div>
+
+        <div class="col">
+            <h3>Contact</h3>
+            <p class="email-id"><i class="fa fa-envelope-o" aria-hidden="true"></i>ief@ium.edu.my</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i>+603 6196 4268</p>
+            <p><i class="fa fa-internet-explorer" aria-hidden="true"></i>www.iium.edu.my/mrc </p>
+            <p><i class="fa fa-facebook" aria-hidden="true"></i>www/facebook.com/mrc.official/</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<!--------JavaScript Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+</script>   
+
+</body>
+</html>
